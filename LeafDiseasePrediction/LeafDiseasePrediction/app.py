@@ -28,7 +28,7 @@ app = Flask(__name__)
 
 @app.route('/')
 def Diabetic_retinopathy():
-    return render_template("leaf_disease.html")
+    return render_template("index.html")
 
 
 model_path ='leaf_disease_weights.h5'
